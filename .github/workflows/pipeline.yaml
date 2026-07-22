@@ -17,6 +17,6 @@ jobs:
             node-version: 24
             package-manager-cache: false
       - name: Install_dependencies
-        run: npm ci
+        run: npm install
       - name: Run_test
         run: npm test
